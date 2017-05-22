@@ -8,7 +8,7 @@
 .vertical-menu a {
   color: white;
   display: block;
-  padding: 12px;
+  padding: 0.8rem;
   text-decoration: none;
 }
 
@@ -19,4 +19,13 @@
 .vertical-menu a.active {
   background-color: #5c7cfa;
   color: white;
+}
+
+.vertical-menu .item-text {
+  font-size: 1.2rem;
+}
+
+.vertical-menu .item-icon {
+  margin-bottom: 5px;
+  margin-right: 10px;
 }
