@@ -1,0 +1,22 @@
+.vertical-menu {
+  float: left;
+  width: 15rem;
+  min-height: 100vh;
+  background-color: rgba(27, 28, 29, 0.8);
+}
+
+.vertical-menu a {
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #5c7cfa;
+}
+
+.vertical-menu a.active {
+  background-color: #5c7cfa;
+  color: white;
+}
