@@ -20,8 +20,8 @@ export default class App extends Component {
         <div>
           <Header />
           <NavBar />
+          <div style={{ marginLeft: '20rem' }}>
           <Switch>
-            <div style={{ marginLeft: '20rem' }}>
               <Route exact path="/" component={Home} />
               <Route path="/page1/:username" component={Page1} />
               <Route path="/page2" component={Page2} />
@@ -29,8 +29,8 @@ export default class App extends Component {
               <Route path="/me" component={MyPage} />
               <Route path="/search" component={Search} />
               <Route component={NotFound} />
-            </div>
           </Switch>
+          </div>
         </div>
       </Router>
     );
