@@ -11,10 +11,13 @@
 }
 
 .header-title {
-  text-align: left;
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.header-title-text {
+  text-align: left; 
   color: white;
   text-decoration: none;
   font-size: 1.3rem;

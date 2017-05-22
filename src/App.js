@@ -20,7 +20,14 @@ export default class App extends Component {
         <div>
           <Header />
           <NavBar />
-          <div style={{ marginLeft: '20%' }}> 
+          <div
+            style={{
+              marginLeft: '15%',
+              padding: '3%',
+              backgroundColor: '#F6F6F6',
+              minHeight: '100vh',
+            }}
+          > 
             {/* change from margin to float or flex */}
             <Switch>
                 <Route exact path="/" component={Home} />
