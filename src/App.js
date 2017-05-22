@@ -20,16 +20,17 @@ export default class App extends Component {
         <div>
           <Header />
           <NavBar />
-          <div style={{ marginLeft: '20rem' }}>
-          <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/page1/:username" component={Page1} />
-              <Route path="/page2" component={Page2} />
-              <Route path="/login" component={Login} />
-              <Route path="/me" component={MyPage} />
-              <Route path="/search" component={Search} />
-              <Route component={NotFound} />
-          </Switch>
+          <div style={{ marginLeft: '20%' }}> 
+            {/* change from margin to float or flex */}
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route path="/page1/:username" component={Page1} />
+                <Route path="/page2" component={Page2} />
+                <Route path="/login" component={Login} />
+                <Route path="/me" component={MyPage} />
+                <Route path="/search" component={Search} />
+                <Route component={NotFound} />
+            </Switch>
           </div>
         </div>
       </Router>
