@@ -1,7 +1,17 @@
-# Void react boilerplate
-My own boilerplate for developing react app
+# LA visualizer
 
-## Implemented
-- Create react app
+Dash Board for Learning Analytics.
+
+## Spec
+
+- React
+- React create app
 - React router v4
-- Folder Structure(Atomic design)
+- React semantic ui
+
+## Todo
+
+- [ ] Dashboard UI 
+- [ ] Implement Semantic UI React
+- [ ] Api calling
+- [ ] Add redux
