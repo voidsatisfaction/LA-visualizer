@@ -7,7 +7,7 @@ import './style.css';
 export default class NavBar extends Component {
   render() {
     return (
-      <div className="vertical-menu">
+      <nav className="vertical-menu">
         <NavLink exact to="/" activeClassName="active item">
           <Icon className="item-icon" name="home" size="large" />
           <span className="item-text" >ホーム</span>
@@ -19,7 +19,7 @@ export default class NavBar extends Component {
         <NavLink to="#">Link2</NavLink>
         <NavLink to="#">Link3</NavLink>
         <NavLink to="#">Link4</NavLink>
-      </div>
+      </nav>
     );
   }
 }
