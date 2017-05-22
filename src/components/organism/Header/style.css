@@ -22,6 +22,10 @@
   text-decoration: none;
   font-size: 1.3rem;
 }
+
+.header-title-text:hover {
+  color: white;
+}
 /*
 .item {
   text-align: center;
