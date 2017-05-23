@@ -10,3 +10,9 @@ html {
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
+
+.chart {
+  background-color: white;
+  border-bottom: 2px solid transparent;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.2)
+}
