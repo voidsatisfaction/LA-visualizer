@@ -18,7 +18,7 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home">
-        <div className="home-chart">
+        <div className="chart home-chart">
           <h3 className="home-title">Bookroll 閲覧数</h3>
           <div className="home-title-sub">
             <Icon name="calendar" />2017.4.1 ~ 2017.5.22

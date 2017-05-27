@@ -8,6 +8,9 @@ export default class NavBar extends Component {
   render() {
     return (
       <nav className="vertical-menu">
+        <div className="logo">
+          LA Visualizer
+        </div>
         <NavLink exact to="/" activeClassName="active item">
           <Icon className="item-icon" name="home" size="large" />
           <span className="item-text" >ホーム</span>

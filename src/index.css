@@ -1,3 +1,14 @@
+/*
+  primary: "#5c7cfa",
+  lightGray: '#F6F6F6',
+  navbar: 'rgba(27, 28, 29, 0.8)',
+  header: "rgb(27, 28, 29)"
+*/
+
+/* ------------------------------------- */
+/* basic setup */
+/* ------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +17,34 @@
 
 html {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Helvetica, Arial, Sans-Serif;
+  font-weight: 300;
   color: rgba(0,0,0,.75);
   font-size: 20px;
   text-rendering: optimizeLegibility;
 }
+
+/* ------------------------------------- */
+/* reusable comopnents */
+/* ------------------------------------- */
+
+/* ------- LINKS ------- */
+
+a:link,
+a:visited {
+  color: #fff;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.chart {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-bottom: 2px solid transparent;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.2)
+}
+
+/* -------  ------- */

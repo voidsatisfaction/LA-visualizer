@@ -8,6 +8,7 @@ Dash Board for Learning Analytics.
 - React create app
 - React router v4
 - React semantic ui
+- Rechart
 
 ## Todo
 
