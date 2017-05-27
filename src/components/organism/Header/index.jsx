@@ -1,20 +1,37 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Icon } from 'semantic-ui-react';
 import './style.css';
 
 export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <div className="header-title">
-          <Link className="header-title-text" to="/">LA Visualizer</Link>
+        <ul className="header-items">
+          <li>
+            <a href="#">
+              <Icon className="header-icon" name="alarm" size="big"/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <Icon className="header-icon" name="comment outline" size="big"/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <Icon className="header-icon" name="setting" size="big"/>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <Icon className="header-icon" name="search" size="big"/>  
+            </a>
+          </li>
+        </ul>
+        <div className="header-user">
+          <img src={require("../../../assets/img/no-user.jpg")} alt="user"/>
         </div>
-        {/*<NavLink exact to="/" className="item" activeClassName="active">Home</NavLink>
-        <NavLink to="/page1/min" className="item">Page1</NavLink>
-        <NavLink to="/page2" className="item">Page2</NavLink>
-        <NavLink to="/me" className="item">Me</NavLink>
-        <NavLink to="/login" className="item">Login</NavLink>
-        <NavLink to="/search" className="item">Search</NavLink>*/}
       </div>
     );
   }

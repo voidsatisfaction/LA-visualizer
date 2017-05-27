@@ -1,8 +1,18 @@
 .vertical-menu {
   float: left;
+  /*position: fixed;*/
   width: 15%;
   min-height: 100vh;
   background-color: rgba(27, 28, 29, 0.8);
+}
+
+.logo {
+  color: white;
+  background-color: rgb(27, 28, 29);
+  height: 3rem;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
 }
 
 .vertical-menu a {

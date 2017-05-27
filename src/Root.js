@@ -12,32 +12,37 @@ import NotFound from './components/page/NotFound';
 import Header from './components/organism/Header';
 import NavBar from './components/organism/NavBar';
 
-export default class App extends Component {
+export default class Root extends Component {
   state = {  }
   render() {
     return (
       <Router>
         <div>
-          <Header />
           <NavBar />
           <div
             style={{
               marginLeft: '15%',
-              padding: '3%',
-              backgroundColor: '#F6F6F6',
+              backgroundColor: '#eee',
               minHeight: '100vh',
+              overflowY:'auto',
             }}
           > 
-            {/* change from margin to float or flex */}
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="/page1/:username" component={Page1} />
-                <Route path="/page2" component={Page2} />
-                <Route path="/login" component={Login} />
-                <Route path="/me" component={MyPage} />
-                <Route path="/search" component={Search} />
-                <Route component={NotFound} />
-            </Switch>
+            <Header />
+            <div
+              style={{
+                margin: '2%',
+              }}
+            >
+              <Switch>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/page1/:username" component={Page1} />
+                  <Route path="/page2" component={Page2} />
+                  <Route path="/login" component={Login} />
+                  <Route path="/me" component={MyPage} />
+                  <Route path="/search" component={Search} />
+                  <Route component={NotFound} />
+              </Switch>
+            </div>
           </div>
         </div>
       </Router>
