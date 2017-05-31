@@ -6,6 +6,7 @@
   "repository": "https://github.com/voidsatisfaction/Void-react-boilerplate.git",
   "author": "voidSatisfaction <lourie@naver.com>",
   "license": "MIT",
+  "proxy": "http://localhost:3001/",
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
