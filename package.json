@@ -8,6 +8,7 @@
   "license": "MIT",
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "apisauce": "^0.13.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1",
